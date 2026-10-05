@@ -2,7 +2,7 @@
 
 ## Objectiu
 
-Muntar correctament un ordinador de sobretaula.
+Muntar correctament un ordinador de sobretaula assegurant el correcte funcionament de tots els components hardware.
 
 ## Materials
 
@@ -12,21 +12,23 @@ Muntar correctament un ordinador de sobretaula.
 - RAM
 - SSD
 - Font d'alimentació
+- Tornavís d'estrella
 
 ## Procediment
 
-1. Preparar la zona de treball.
+1. Preparar la zona de treball i descarregar l'electricitat estàtica.
+2. Instal·lar la CPU i la memòria RAM a la placa base.
+3. Fixar la placa base dins de la caixa ATX.
+4. Col·locar la font d'alimentació i connectar els cables a la placa base (ATX 24 pins i CPU 8 pins).
+5. Instal·lar la unitat d'emmagatzematge SSD.
 
-## Comprovacions
+### Imatge del procés
 
-- [ ] Primera comprovació
+![Muntatge de la CPU](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Installing_CPU.jpg/640px-Installing_CPU.jpg)
 
-## Incidències i solucions
+### Comanda de comprovació
 
-| Incidència | Solució |
-|------------|----------|
-| Exemple | Exemple |
+Per comprovar la CPU des del terminal una vegada engegat el sistema:
 
-## Recursos
-
-- https://docs.github.com/
+```bash
+lscpu
