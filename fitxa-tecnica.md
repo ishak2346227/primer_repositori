@@ -31,8 +31,4 @@ Muntar correctament un ordinador de sobretaula assegurant el correcte funcioname
 Per comprovar la CPU des del terminal una vegada engegat el sistema:
 
 ```bash
-- [Documentació oficial de GitHub](https://docs.github.com/)
-- [Manual de muntatge de hardware](https://ca.wikipedia.org/wiki/Ordinador_personal)
-
-*Darrera revisió: Octubre 2026*
 lscpu
