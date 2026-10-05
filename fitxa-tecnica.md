@@ -45,7 +45,7 @@ Documentar i detallar el procediment pas a pas per al muntatge complet i sistem�
 
 ### Imatge del procés
 
-![Muntatge de la CPU](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Installing_CPU.jpg/640px-Installing_CPU.jpg)
+![Muntatge de la CPU](https://hardzone.es/app/uploads-hardzone.es/2021/01/geforce.png)
 
 ### Comanda de comprovació
 
