@@ -1,52 +1,137 @@
-# Fitxa tècnica: Muntatge d'un ordinador de sobretaula
+Fitxa tècnica: Muntatge d'un ordinador de sobretaula
+Objectiu
 
-## Objectiu
+Documentar el procés de muntatge d'un ordinador de sobretaula, explicant de manera ordenada els materials necessaris, els passos de muntatge i les comprovacions finals. L'objectiu és aconseguir que tots els components quedin correctament instal·lats, connectats i reconeguts per la BIOS/UEFI i pel sistema operatiu.
 
-Documentar i detallar el procediment pas a pas per al muntatge complet i sistemàtic d'un ordinador de sobretaula d'alt rendiment. L'objectiu principal és garantir la correcta instal·lació física de cada component hardware, optimitzar el flux d'aire de la caixa, organitzar el cablatge intern i assegurar que el sistema reconegui tots els dispositius des de la BIOS/UEFI sense conflictes tècnics.
+Materials
 
-## Materials
+Caixa ATX amb ventilació i filtres antipols.
 
-- **Chassis/Caixa:** Caixa ATX amb panell lateral de vidre i filtre antipols.
-- **Placa base:** Placa base format ATX compatible amb processadors Intel/AMD de darrera generació.
-- **Processador:** CPU Intel Core / AMD Ryzen.
-- **Sistema de refrigeració:** Refrigeració per aire de doble torre amb ventilador PWM de 120mm.
-- **Memòria RAM:** Kit de 32 GB (2x16 GB) DDR4/DDR5 a alta velocitat.
-- **Emmagatzematge:** SSD NVMe M.2 de 1 TB d'alta velocitat.
-- **Font d'alimentació:** Font d'alimentació 750W 80 Plus Gold modular.
-- **Targeta gràfica (opcional):** GPU dedicada PCIe 4.0/5.0.
-- **Eines:** Tornavís d'estrella (PH2) magnètic, brides de plàstic per a la gestió de cables i polsera antiestàtica.
+Placa base ATX compatible amb el processador.
 
-## Procediment
+Processador Intel Core o AMD Ryzen.
 
-1. **Preparació de l'entorn de treball:**
-   Netejar la taula de treball, col·locar una catifa antiestàtica i posar-se la polsera de presa a terra. Desempaquetar tots els components hardware i revisar que totes les peces i fons de caragols estiguin complets.
+Dissipador i ventilador per a la CPU.
 
-2. **Muntatge inicial a la placa base (fora de la caixa):**
-   - Obrir el sòcol de la CPU (socket), orientar el processador segons el triacle indicador d'alineació i col·locar-lo amb molta cura sense fer pressió.
-   - Tancar la palanca de seguretat del sòcol.
-   - Instal·lar el disc SSD NVMe M.2 a la ranura principal i fixar-lo amb el caragol o tancament ràpid.
-   - Insertar els mòduls de memòria RAM a les ranures recomanades per a Dual Channel (normalment A2 i B2) fins a sentir el "clic" dels pestells.
+Pasta tèrmica.
 
-3. **Instal·lació del sistema de refrigeració:**
-   - Aplicar una petita quantitat de pasta tèrmica (mida d'un gra de llessa) sobre el centre de l'IHS de la CPU.
-   - Col·locar el dissipador i caragolar-lo en patró de creu per repartir la pressió de manera uniforme.
-   - Connectar el cable del ventilador a la presa `CPU_FAN` de la placa base.
+Memòria RAM DDR4 o DDR5.
 
-4. **Instal·lació de la font d'alimentació i muntatge al chassis:**
-   - Montar els caragols de separació (standoffs) a la caixa ATX segons el format de la placa.
-   - Instal·lar el shield I/O posterior si la placa no el porta integrat.
-   - Col·locar la placa base a la caixa i fixar-la amb els caragols corresponents sense forçar el roscat.
-   - Instal·lar la font d'alimentació a la part inferior de la caixa i passar els cables principals (`ATX 24 pins` i `CPU 8 pins`) per la part posterior del chassis.
+SSD NVMe M.2 de 1 TB.
 
-5. **Connexions internes i gestió de cablatge:**
-   - Connectar l'alimentació de 24 pins a la placa i els 8 pins per a la CPU.
-   - Connectar els cables del panell frontal de la caixa (`Power SW`, `Reset SW`, `Power LED`, `HDD LED`, `USB 3.0` i `HD Audio`) als pins corresponents de la placa base.
-   - Fixar tots els cables posteriors amb brides per millorar l'estètica i afavorir el flux d'aire intern.
+Font d'alimentació modular de 750 W.
 
-### Imatge del procés
+Targeta gràfica dedicada PCIe, si és necessària.
 
-![Muntatge de la CPU](https://hardzone.es/app/uploads-hardzone.es/2021/01/geforce.png)
+Tornavís d'estrella PH2.
 
-### Comanda de comprovació
+Brides de plàstic per organitzar els cables.
 
-Per comprovar la CPU des del terminal una vegada engegat el sistema Linux:
+Polsera antiestàtica.
+
+Procediment
+
+Preparar la zona de treball, netejar la superfície i comprovar que disposem de tots els components i eines necessàries.
+
+Col·locar la placa base sobre una superfície adequada per començar el muntatge fora de la caixa.
+
+Obrir el sòcol de la CPU i col·locar el processador respectant la marca d'alineació.
+
+Tancar el mecanisme de seguretat del sòcol sense aplicar una força excessiva.
+
+Instal·lar el SSD NVMe M.2 a la ranura corresponent de la placa base i fixar-lo.
+
+Instal·lar els mòduls de memòria RAM a les ranures recomanades pel fabricant per aprofitar el Dual Channel.
+
+Aplicar una petita quantitat de pasta tèrmica sobre el processador.
+
+Instal·lar el dissipador i el ventilador de la CPU i connectar el ventilador a la connexió CPU_FAN.
+
+Preparar la caixa instal·lant els separadors necessaris per a una placa base ATX.
+
+Col·locar la placa base dins de la caixa i fixar-la amb els cargols corresponents.
+
+Instal·lar la font d'alimentació a la part inferior de la caixa.
+
+Connectar el cable principal ATX de 24 pins i el cable d'alimentació de la CPU.
+
+Connectar els cables del panell frontal, com ara Power SW, Reset SW, Power LED, USB i HD Audio.
+
+Instal·lar la targeta gràfica a la ranura PCIe, si l'equip disposa d'una GPU dedicada.
+
+Connectar els cables d'alimentació necessaris per a la targeta gràfica.
+
+Organitzar els cables a la part posterior de la caixa utilitzant brides per evitar que interfereixin amb el flux d'aire.
+
+Revisar totes les connexions abans d'engegar l'ordinador.
+
+Engegar l'equip i entrar a la BIOS/UEFI per comprovar que els components són detectats correctament.
+
+Comprovacions
+
+ L'ordinador s'encén correctament.
+
+ La placa base rep alimentació.
+
+ El processador és detectat per la BIOS/UEFI.
+
+ La memòria RAM és detectada correctament.
+
+ El SSD NVMe apareix a la BIOS/UEFI.
+
+ La targeta gràfica és detectada, si està instal·lada.
+
+ El ventilador del processador funciona correctament.
+
+ Les temperatures del processador són normals.
+
+ El sistema operatiu detecta els components instal·lats.
+
+ El cablatge està ordenat i no interfereix amb els ventiladors.
+
+Per comprovar la informació del processador des de Linux es pot utilitzar la comanda:
+
+lscpu
+
+
+Aquesta comanda mostra informació sobre l'arquitectura, el fabricant, el model del processador, el nombre de nuclis i els fils d'execució.
+
+Incidències i solucions
+Incidència	Solució
+L'ordinador no s'encén	Comprovar que la font d'alimentació està connectada i que els cables ATX de 24 pins i CPU estan ben connectats.
+La pantalla no mostra imatge	Comprovar la connexió del monitor i revisar la instal·lació de la targeta gràfica.
+La memòria RAM no és detectada	Apagar l'ordinador i comprovar que els mòduls estan ben inserits a les ranures recomanades.
+El SSD NVMe no apareix	Revisar que el SSD estigui correctament instal·lat a la ranura M.2.
+La CPU presenta temperatures elevades	Comprovar la instal·lació del dissipador, el ventilador i la pasta tèrmica.
+Els ventiladors no funcionen	Revisar les connexions dels ventiladors i comprovar que estan connectats als connectors corresponents de la placa base.
+Imatge del procés
+
+Flux de treball amb Git
+
+Git permet controlar les diferents versions de la documentació i consultar els canvis realitzats.
+
+El flux de treball utilitzat és el següent:
+
+Utilitzar git status per comprovar l'estat del repositori.
+
+Utilitzar git diff per revisar els canvis realitzats.
+
+Utilitzar git add per preparar els fitxers que volem guardar.
+
+Utilitzar git commit per crear una versió amb un missatge descriptiu.
+
+Utilitzar git log --oneline per consultar l'historial de commits.
+
+Utilitzar git push per sincronitzar els canvis amb el repositori remot de GitHub.
+
+Aquest sistema permet mantenir un historial ordenat de la documentació i recuperar informació de versions anteriors si és necessari.
+
+Recursos
+
+Documentació oficial de GitHub
+
+Documentació oficial de Git
+
+Documentació del fabricant de la placa base.
+
+Documentació del fabricant dels components utilitzats.
