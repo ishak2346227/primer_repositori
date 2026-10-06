@@ -60,12 +60,9 @@ Documentar i detallar el procediment pas a pas per al muntatge complet i sistem�
 
 ![Muntatge de la CPU](https://hardzone.es/app/uploads-hardzone.es/2021/01/geforce.png)
 
-## Comprovacions
+### Comanda de comprovació
 
-Per comprovar la informació del processador des de Linux es pot utilitzar la comanda:
-
-```bash
-lscpu
+Per comprovar la CPU des del terminal una vegada engegat el sistema Linux:git log --oneline
 ## Incidències i solucions
 
 | Incidència | Solució |
