@@ -43,6 +43,19 @@ Documentar i detallar el procediment pas a pas per al muntatge complet i sistem�
    - Connectar els cables del panell frontal de la caixa (`Power SW`, `Reset SW`, `Power LED`, `HDD LED`, `USB 3.0` i `HD Audio`) als pins corresponents de la placa base.
    - Fixar tots els cables posteriors amb brides per millorar l'estètica i afavorir el flux d'aire intern.
 
+## Comprovacions
+
+- [ ] L'ordinador s'encén correctament.
+- [ ] La placa base rep alimentació.
+- [ ] El processador és detectat per la BIOS/UEFI.
+- [ ] La memòria RAM és detectada correctament.
+- [ ] El SSD NVMe apareix a la BIOS/UEFI.
+- [ ] La targeta gràfica és detectada, si està instal·lada.
+- [ ] El ventilador del processador funciona correctament.
+- [ ] Les temperatures del processador són normals.
+- [ ] El sistema operatiu detecta els components instal·lats.
+- [ ] El cablatge està ordenat i no interfereix amb els ventiladors.
+
 ### Imatge del procés
 
 ![Muntatge de la CPU](https://hardzone.es/app/uploads-hardzone.es/2021/01/geforce.png)
